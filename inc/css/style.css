@@ -1,0 +1,49 @@
+html{
+    min-height: 100vh;
+    position: relative;
+    padding-top: 56px; /* nav */
+    padding-bottom: 56px; /* footer */
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+a, a:hover{
+    color: black;
+}
+
+footer a, footer a:hover {
+    color: white;
+
+}
+.iconePhoto{
+    font-size: 3rem;
+    cursor: pointer;
+}
+.vignette{
+    max-width: 30%;
+}
+.w-20{
+    width: 20%;
+}
+#bandeaucookies{
+    position: fixed;
+    bottom: -70px;
+}
+.selected,.selected:hover,.selected:focus{
+    background-color: green;
+}
+.description{ 
+    word-wrap: break-word;
+  }
+
+
+
+
+@media screen and (max-width: 720px){
+    .vignette{
+        max-width: 100%;
+    }
+}
